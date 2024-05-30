@@ -51,10 +51,7 @@ public class CircularQueue {
             front = (front + 1) % queue.length;
         }
 
-        size--;
-        System.out.println("Dequeued element: " + element);
-        return element;
-    }
+        
 
     public int peek() {
         if (isEmpty()) {
